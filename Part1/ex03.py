@@ -1,0 +1,9 @@
+string1 = 'MarViN THe bOt'
+string_lower = string1.lower()
+string_upper = string1.upper()
+string_nospace = string1.replace(" ", "")
+
+print(string1)
+print(string_lower)
+print(string_upper)
+print(string_nospace)
