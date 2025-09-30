@@ -6,7 +6,7 @@ import random
 # --- 1. Configuration & API Key Setup ---
 # *** IMPORTANT: REPLACE THIS PLACEHOLDER WITH YOUR ACTUAL GEMINI API KEY ***
 # RECOMMENDATION: Use st.secrets or environment variables for security.
-GOOGLE_API_KEY = "AIzaSyBtMGPg3oUK0K0akIwlZW2sGzTleED4vRw" 
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 if not GOOGLE_API_KEY:
     st.error("Gemini API Key not found. Please set the 'GOOGLE_API_KEY' variable.")
